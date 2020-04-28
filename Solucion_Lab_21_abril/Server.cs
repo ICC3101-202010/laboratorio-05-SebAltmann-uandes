@@ -121,5 +121,11 @@ namespace Solucion_Lab_21_abril
             return "http://pluscorporation.com/verificar-correo.php?=" + usr + "_" + result;
         }
 
+        //Metodo que muestra un breve mensaje en el que se dice que se verificó correctamente el correo
+        private string OnEmailVerified()
+        {
+            return "El correo se verificó correctamente";
+        }
+
     }
 }
