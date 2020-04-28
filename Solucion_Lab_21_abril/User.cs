@@ -7,12 +7,12 @@ namespace Solucion_Lab_21_abril
         {
         }
 
-        private void OnEmailSent()
+        private string OnEmailSent()
         {
             String verifyEmailYN;
             Console.Write("Desea verificar su correo?  {Y/N}");
             verifyEmailYN = Console.ReadLine();
-            return;
+            return verifyEmailYN;
         }
 
     }
